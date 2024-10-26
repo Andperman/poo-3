@@ -1,3 +1,25 @@
 body {
     background-color: ghostwhite;
 }
+
+button {
+    padding: 15px 30px;               
+    font-size: 25px;   
+}
+
+#image-gallery {
+    display: flex;                 
+    flex-wrap: wrap;              
+    justify-content: center;      
+    margin: 20px;                 
+}
+
+
+#image-gallery picture {
+    margin: 20px;                
+}
+
+#image-gallery img {
+    max-width: 300px;            
+    height: auto;                 
+}
